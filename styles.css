@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.header-container {
+  display: flex; /* Включаем flexbox */
+  justify-content: center; /* Центрируем содержимое по горизонтали */
+  align-items: center; /* Выравниваем элементы по вертикали (центр) */
+  gap: 15px; /* Расстояние между картинкой и заголовком */
+  width: 100%; /* Контейнер на всю ширину */
+}
+
+.profile-photo {
+  height: 110px; /* Установите нужную высоту картинки */
+  width: auto; /* Сохранение пропорций */
+  border-radius: 20%;
+}
+
+.header-title {
+  margin: 0; /* Убираем стандартные отступы заголовка */
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+p {
+    text-indent: 10px;
+}
+section {
+    padding: 20px;
+}
+section:nth-of-type(even) {
+    background: #f4f4f4;
+}
+#contact {
+    color: #FF69B4;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #800080;
+}
