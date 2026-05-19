@@ -1,2 +1,2 @@
-# vizitka.github.io
+# EkaterinaDubovitskaya.github.io
 Сайт-визитка
